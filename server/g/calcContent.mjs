@@ -7,4 +7,4 @@ function calcContent(env){
 ${env.althea.loadModule(env.envVars,'graph.js')}
 `
 }
-export dfault calcContent
+export default calcContent
