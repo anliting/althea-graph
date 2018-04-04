@@ -1,4 +1,3 @@
-module.exports=calcContent
 function calcContent(env){
     return`
 <!doctype html>
@@ -8,3 +7,4 @@ function calcContent(env){
 ${env.althea.loadModule(env.envVars,'graph.js')}
 `
 }
+export dfault calcContent

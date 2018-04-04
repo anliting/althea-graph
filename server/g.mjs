@@ -1,6 +1,5 @@
-let
-    calcContent=    require('./g/calcContent')
-module.exports=env=>{
+import calcContent from './g/calcContent'
+export default env=>{
     if(!env.althea.allowOrigin(env.envVars,env.request.headers.origin))
         return 403
     if(env.request.method=='GET')
